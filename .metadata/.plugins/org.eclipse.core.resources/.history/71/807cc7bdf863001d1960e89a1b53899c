@@ -1,0 +1,5 @@
+package com.aop.epam.model;
+
+public class Accounts {
+
+}

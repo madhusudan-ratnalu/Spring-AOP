@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="student" class="com.aop.beans.Student">
+		
+		<property name="mobileNo" value="8984006007"/>
+		<property name="name" value="MADHUSUDAN"/>
+		<property name="email" value="nad@gmail.com"/>
+		<property name="qualification" value="MCA"/>
+		
+	</bean>
+
+	<bean id="target" class="com.aop.bo.InstituteServiceImpl" />
+	<bean id="advice" class="com.aop.advice.ThankYouAdvice" />
+	<bean id="advice2" class="com.aop.advice.ThankYouAdvice2" />
+
+	<bean id="proxy"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="target" />
+		<property name="interceptorNames">
+			<list>
+				<value>advice</value>
+				<value>advice2</value>
+			</list>
+		</property>
+
+	</bean>
+</beans>

@@ -1,0 +1,5 @@
+package com.aop.beans;
+
+public class Calculator2 {
+
+}

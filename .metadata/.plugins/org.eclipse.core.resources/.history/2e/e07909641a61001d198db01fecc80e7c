@@ -1,0 +1,29 @@
+package com.aop;
+
+import org.springframework.aop.framework.ProxyFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.aop.advice.CacheAdvice;
+import com.aop.advice.LoggingAdvice;
+import com.aop.beans.Calculator;
+
+@SpringBootApplication
+public class MethodBeforeAdviceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MethodBeforeAdviceApplication.class, args);
+		
+		ProxyFactory pf = new ProxyFactory();
+		pf.setTarget(new Calculator());
+		pf.addAdvice(new CacheAdvice());
+		pf.addAdvice(new LoggingAdvice());
+		
+		Calculator proxy = (Calculator) pf.getProxy();
+
+		int sum2 = proxy.add(10, 20);
+		System.out.println(sum2);
+
+		}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ThankYouAdvice.java&apos; to &apos;04.Programmatic-thanku-arfter-returning-advice/src/main/java/com.aop.advice&apos;&#x0D;&#x0A;- Original project: &apos;04.Programmatic-thanku-arfter-returning-advice&apos;&#x0D;&#x0A;- Destination element: &apos;04.Programmatic-thanku-arfter-returning-advice/src/main/java/com.aop.advice&apos;&#x0D;&#x0A;- Original element: &apos;com.aop.advice.ThankYouAdvice.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aop.advice" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aop.advice{ThankYouAdvice.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1668099795574" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.aop.epam.aspect;
+
+public class LoggingAspect {
+
+}

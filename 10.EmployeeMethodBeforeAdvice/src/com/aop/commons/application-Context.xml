@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee" class="com.aop.beans.Employee">
+		<property name="eno" value="12378" />
+		<property name="esal" value="34567" />
+		<property name="ename" value="MADHU" />
+		<property name="email" value="mad@gmail.com" />
+		<property name="emobile" value="91-8984006007" />
+	</bean>
+
+	<bean id="empServiceImpl" class="com.aop.bo.EmployeeServiceImpl" />
+	<bean id="ValidatorAdvice"
+		class="com.aop.advice.EmployeeValidatorAdvice" />
+
+
+<!-- pointcut defined here -->
+	<bean id="pointcut"
+		class="org.springframework.aop.support.NameMatchMethodPointcut">
+		<property name="mappedNames">
+			<array>
+				<value>displayEmployee</value>
+			</array>
+		</property>
+	</bean>
+<!-- 	Advisor -->
+	<bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="pointcut" ref="pointcut"/>
+		<property name="advice" ref="ValidatorAdvice"/>
+	</bean>
+	
+	
+	<bean id="empProxy"
+		class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="empServiceImpl" />
+		<property name="interceptorNames">
+			<list>
+				<value>advisor</value>
+			</list>
+		</property>
+
+	</bean>
+</beans>

@@ -1,0 +1,27 @@
+package com.aop.beans;
+
+
+public class Calculator {
+	
+	public int addition(int num1, int num2) {
+		System.out.println("entered target class");
+		int total = num1 + num2;
+		System.out.println("exit from target class");
+		return total;
+	}
+	
+	public int substarct(int num1, int num2) {
+		int total = num1 - num2;
+		return total;
+	}
+	
+	public int multiply(int num1, int num2) {
+		System.out.println("multiply() Called with param"+num1 +"and"+num2);
+		int total = num1 * num2;
+		System.out.println("multiply() executed sucessfully with sum "+total);
+		return total;
+	}
+
+}
+
+//around,after,before,throws,after returning

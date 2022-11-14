@@ -1,0 +1,13 @@
+package com.aop.epam.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class LoggingAspect {
+
+	@Pointcut("@annotation(com.example.aop.springaop.annotation.CustomAnnotation)")
+	public void loggingPointCut() {
+	}
+
+}

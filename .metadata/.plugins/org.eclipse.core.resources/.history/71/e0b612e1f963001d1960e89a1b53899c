@@ -1,0 +1,12 @@
+package com.aop.epam.service;
+
+import com.aop.epam.model.Accounts;
+
+public class AccountsService {
+	
+	public void saveAccountsData(Accounts accounts) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

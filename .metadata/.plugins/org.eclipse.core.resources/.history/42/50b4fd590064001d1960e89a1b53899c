@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: madhu@123
+    url: jdbc:mysql://localhost/aop?allowPublicKeyRetrieval=true&useSSL=false
+    username: madhu
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true

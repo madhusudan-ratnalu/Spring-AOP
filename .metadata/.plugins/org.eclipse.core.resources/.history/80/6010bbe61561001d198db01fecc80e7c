@@ -1,0 +1,13 @@
+package com.aop.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Calculator2 {
+
+	public double division(double num1, double num2) {
+		double total = num1 / num2;
+		return total;
+	}
+
+}

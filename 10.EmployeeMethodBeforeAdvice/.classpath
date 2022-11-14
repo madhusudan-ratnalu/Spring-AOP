@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SPRING AOP"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-aop-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-aspects-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-beans-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-context-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-context-indexer-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-context-support-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-core-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-expression-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-instrument-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-jcl-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-jdbc-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-jms-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-messaging-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-orm-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-oxm-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-test-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-tx-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-web-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-webflux-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-webmvc-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="F:/STUDY SOFTWARE/JARS/spring 5.2/spring-websocket-5.2.2.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;01.LoggingDeclarativeApproach/src&apos;&#x0D;&#x0A;- Original project: &apos;01.LoggingImplement&apos;&#x0D;&#x0A;- Destination element: &apos;01.LoggingDeclarativeApproach/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     01.LoggingImplement/src/com.aop.advice&#x0D;&#x0A;     01.LoggingImplement/src/com.aop.test&#x0D;&#x0A;     01.LoggingImplement/src/com.aop.beans" description="Copy packages" destination="=01.LoggingDeclarativeApproach/src" element1="/src&lt;com.aop.advice" element2="/src&lt;com.aop.test" element3="/src&lt;com.aop.beans" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1587386156820" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/02.LoggingDeclarativeApproach/src/com/aop/commons/application-Context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/10.EmployeeNagorBabu/src/com/aop/commons/application-Context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/11.StudentAfterAdvice/src/com/aop/commons/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/12.MovieThrowsAdvice/src/com/aop/commons/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/13.DeclarativeApproach/src/com/aop/commons/applicationContext.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+com.springsource.config.ui.prefs.tabs.dialog=always
+eclipse.preferences.version=1
